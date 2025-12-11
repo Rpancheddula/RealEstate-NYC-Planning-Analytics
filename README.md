@@ -43,18 +43,10 @@ Interactive analytics on 500+ NYC Planning projects across boroughs and statuses
 - Columns: Project_id, Applicant_Name, Project_Name, Status, Borough, City, LastUpdated, Application_Administrator, Month
 - Note: This repo includes a trimmed sample dataset for demonstration.
 
-## 🛠️ Repro steps
-1. Clone the repo
-2. Open `/notebooks/cleaning_pipeline.ipynb` and run preprocessing
-3. Load `sample_cleaned.csv` into Power BI
-4. Open `/dashboard/Real_estate_RaviTeja_Akash.pbix` (or recreate visuals following docs/CaseStudy.md)
-5. Use filters to explore trends
-
 ## 🧭 Architecture
 End-to-end flow:
 City Planning (ZAP) → Extraction (Manual/API) → Cleaning (Excel/Python) → Aggregation → Storage (CSV/PBI dataset) → Visualization (Power BI)
 
-![Architecture Diagram](docs/architecture.png)
 
 ## 📸 Screenshots
 !Summary & Boroughs<img width="423" height="313" alt="Boroughs" src="https://github.com/user-attachments/assets/19fe34b5-1ee8-45e2-a3ca-7cd756111d07" />
