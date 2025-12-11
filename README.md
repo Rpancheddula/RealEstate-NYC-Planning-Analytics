@@ -1,5 +1,11 @@
 # RealEstate-NYC-Planning-Analytics
 Interactive Power BI analytics on 500+ NYC Planning projects (ZAP): trends by borough, status, admins, and time.
+## 📊 Data
+- Source: NYC Zoning Application Portal (ZAP)
+- Granularity: project-level records
+- Scale: 5,000+ projects analyzed in total
+- Note: This repository includes a trimmed sample dataset for demonstration purposes. Full dataset is not posted due to size and sensitivity.
+
 # Urban real estate development analytics — NYC Planning (ZAP)
 
 Interactive analytics on 500+ NYC Planning projects across boroughs and statuses, built with Python (pandas) for preprocessing and Power BI for visualization. This end-to-end case study reveals trends in development activity, pipeline maturity, seasonal patterns, and administrator workloads.
@@ -66,6 +72,11 @@ City Planning (ZAP) → Extraction (Manual/API) → Cleaning (Excel/Python) → 
 - Forecasting project volumes by borough (Time series)
 - GIS integration (ArcGIS visuals)
 - Cross-city comparative dashboards (Austin/Chicago/Seattle)
+
+## 🚀 Highlights
+- End-to-end pipeline: sourcing → cleaning → modeling → interactive dashboard
+- Analyzed 5,000+ NYC Planning projects across boroughs and statuses
+- Representative sample included here for reproducibility
 
 ## 👤 Authors
 - Ravi Teja — Data Analyst (Volunteer)
